@@ -1,10 +1,12 @@
 const mysql = require("mysql2")
+require("dotenv").config()
 
 const connection = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "",
-  database: "tienda_deportiva"
+  host:     process.env.DB_HOST     || "localhost",
+  port:     process.env.DB_PORT     || 3306,
+  user:     process.env.DB_USER     || "root",
+  password: process.env.DB_PASSWORD || "",
+  database: process.env.DB_NAME     || "tienda_deportiva"
 })
 
 connection.connect((err) => {
@@ -15,5 +17,4 @@ connection.connect((err) => {
   }
 })
 
-// .promise() permite usar async/await en las rutas
 module.exports = connection.promise()
