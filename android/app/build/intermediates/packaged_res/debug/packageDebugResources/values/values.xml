@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="bottom_nav_selected">#E8650A</color>
+    <color name="bottom_nav_unselected">#666666</color>
+    <color name="color_background">#121212</color>
+    <color name="color_divider">#2E2E2E</color>
+    <color name="color_on_surface">#EFEFEF</color>
+    <color name="color_primary">#E8650A</color>
+    <color name="color_primary_dark">#BF4F00</color>
+    <color name="color_primary_light">#FFAA60</color>
+    <color name="color_surface">#1E1E1E</color>
+    <color name="color_surface_variant">#2A2A2A</color>
+    <color name="color_text_secondary">#999999</color>
+    <color name="status_cancelled">#757575</color>
+    <color name="status_confirmed">#2196F3</color>
+    <color name="status_delivered">#4CAF50</color>
+    <color name="status_pending">#FFC107</color>
+    <color name="status_returned">#F44336</color>
+    <color name="status_shipped">#9C27B0</color>
+    <color name="white">#FFFFFF</color>
+    <string name="add_to_cart">Agregar al carrito</string>
+    <string name="app_name">SportStore</string>
+    <string name="confirm_order">Confirmar pedido</string>
+    <string name="empty_cart">Tu carrito está vacío</string>
+    <string name="empty_orders">Aún no tienes pedidos</string>
+    <string name="error_fill_all">Completa todos los campos</string>
+    <string name="error_no_connection">Sin conexión al servidor</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="nav_cart">Carrito</string>
+    <string name="nav_home">Inicio</string>
+    <string name="nav_orders">Pedidos</string>
+    <string name="nav_products">Productos</string>
+    <string name="no_products">No se encontraron productos</string>
+    <string name="register">Registrarse</string>
+    <string name="request_return">Solicitar devolución</string>
+    <string name="search_products">Buscar productos…</string>
+    <style name="SportStore.ActionBar" parent="Widget.AppCompat.ActionBar.Solid">
+        <item name="background">@color/color_primary</item>
+        <item name="titleTextStyle">@style/SportStore.ActionBar.TitleText</item>
+    </style>
+    <style name="SportStore.ActionBar.TitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="SportStore.Chip" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/chip_background_color</item>
+        <item name="chipStrokeColor">@color/color_primary</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="android:textColor">@color/chip_text_color</item>
+        <item name="checkedIconTint">@color/white</item>
+    </style>
+    <style name="Theme.SportStore" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorAccent">@color/color_primary</item>
+        <item name="android:windowBackground">@color/color_background</item>
+        <item name="android:colorBackground">@color/color_background</item>
+        <item name="colorSurface">@color/color_surface</item>
+        <item name="colorOnSurface">@color/color_on_surface</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        
+        <item name="actionBarStyle">@style/SportStore.ActionBar</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.MaterialComponents.Dark.ActionBar</item>
+
+        
+        <item name="colorControlNormal">@color/color_text_secondary</item>
+        <item name="colorControlActivated">@color/color_primary</item>
+
+        
+        <item name="chipStyle">@style/SportStore.Chip</item>
+    </style>
+</resources>

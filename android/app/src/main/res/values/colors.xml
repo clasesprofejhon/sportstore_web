@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Paleta principal: naranja SportStore -->
+    <color name="color_primary">#E8650A</color>
+    <color name="color_primary_dark">#BF4F00</color>
+    <color name="color_primary_light">#FFAA60</color>
+
+    <!-- Superficies (tema oscuro) -->
+    <color name="color_background">#121212</color>
+    <color name="color_surface">#1E1E1E</color>
+    <color name="color_surface_variant">#2A2A2A</color>
+
+    <!-- Textos -->
+    <color name="color_on_surface">#EFEFEF</color>
+    <color name="color_text_secondary">#999999</color>
+    <color name="color_divider">#2E2E2E</color>
+
+    <!-- Sistema -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Estados de pedidos -->
+    <color name="status_pending">#FFC107</color>
+    <color name="status_confirmed">#2196F3</color>
+    <color name="status_shipped">#9C27B0</color>
+    <color name="status_delivered">#4CAF50</color>
+    <color name="status_returned">#F44336</color>
+    <color name="status_cancelled">#757575</color>
+
+    <!-- Bottom nav -->
+    <color name="bottom_nav_selected">#E8650A</color>
+    <color name="bottom_nav_unselected">#666666</color>
+</resources>

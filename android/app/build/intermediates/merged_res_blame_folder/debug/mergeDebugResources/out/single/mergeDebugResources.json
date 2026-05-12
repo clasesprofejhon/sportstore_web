@@ -1,0 +1,102 @@
+[
+    {
+        "merged": "com.sportstore.app-debug-50:/navigation_nav_graph.xml.flat",
+        "source": "com.sportstore.app-main-52:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.sportstore.app-debug-50:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.sportstore.app-main-52:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.sportstore.app-debug-50:/xml_network_security_config.xml.flat",
+        "source": "com.sportstore.app-main-52:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.sportstore.app-debug-50:/drawable_ic_store.xml.flat",
+        "source": "com.sportstore.app-main-52:/drawable/ic_store.xml"
+    },
+    {
+        "merged": "com.sportstore.app-debug-50:/layout_fragment_orders.xml.flat",
+        "source": "com.sportstore.app-main-52:/layout/fragment_orders.xml"
+    },
+    {
+        "merged": "com.sportstore.app-debug-50:/menu_menu_bottom_nav.xml.flat",
+        "source": "com.sportstore.app-main-52:/menu/menu_bottom_nav.xml"
+    },
+    {
+        "merged": "com.sportstore.app-debug-50:/drawable_ic_home.xml.flat",
+        "source": "com.sportstore.app-main-52:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "com.sportstore.app-debug-50:/layout_activity_main.xml.flat",
+        "source": "com.sportstore.app-main-52:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.sportstore.app-debug-50:/layout_activity_register.xml.flat",
+        "source": "com.sportstore.app-main-52:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.sportstore.app-debug-50:/layout_item_order_line.xml.flat",
+        "source": "com.sportstore.app-main-52:/layout/item_order_line.xml"
+    },
+    {
+        "merged": "com.sportstore.app-debug-50:/layout_fragment_cart.xml.flat",
+        "source": "com.sportstore.app-main-52:/layout/fragment_cart.xml"
+    },
+    {
+        "merged": "com.sportstore.app-debug-50:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.sportstore.app-main-52:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.sportstore.app-debug-50:/color_bottom_nav_color.xml.flat",
+        "source": "com.sportstore.app-main-52:/color/bottom_nav_color.xml"
+    },
+    {
+        "merged": "com.sportstore.app-debug-50:/layout_activity_login.xml.flat",
+        "source": "com.sportstore.app-main-52:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.sportstore.app-debug-50:/layout_item_order.xml.flat",
+        "source": "com.sportstore.app-main-52:/layout/item_order.xml"
+    },
+    {
+        "merged": "com.sportstore.app-debug-50:/layout_fragment_products.xml.flat",
+        "source": "com.sportstore.app-main-52:/layout/fragment_products.xml"
+    },
+    {
+        "merged": "com.sportstore.app-debug-50:/color_chip_text_color.xml.flat",
+        "source": "com.sportstore.app-main-52:/color/chip_text_color.xml"
+    },
+    {
+        "merged": "com.sportstore.app-debug-50:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.sportstore.app-main-52:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.sportstore.app-debug-50:/drawable_ic_orders.xml.flat",
+        "source": "com.sportstore.app-main-52:/drawable/ic_orders.xml"
+    },
+    {
+        "merged": "com.sportstore.app-debug-50:/drawable_ic_cart.xml.flat",
+        "source": "com.sportstore.app-main-52:/drawable/ic_cart.xml"
+    },
+    {
+        "merged": "com.sportstore.app-debug-50:/menu_menu_main.xml.flat",
+        "source": "com.sportstore.app-main-52:/menu/menu_main.xml"
+    },
+    {
+        "merged": "com.sportstore.app-debug-50:/layout_fragment_home.xml.flat",
+        "source": "com.sportstore.app-main-52:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.sportstore.app-debug-50:/color_chip_background_color.xml.flat",
+        "source": "com.sportstore.app-main-52:/color/chip_background_color.xml"
+    },
+    {
+        "merged": "com.sportstore.app-debug-50:/layout_item_product.xml.flat",
+        "source": "com.sportstore.app-main-52:/layout/item_product.xml"
+    },
+    {
+        "merged": "com.sportstore.app-debug-50:/layout_item_cart.xml.flat",
+        "source": "com.sportstore.app-main-52:/layout/item_cart.xml"
+    }
+]

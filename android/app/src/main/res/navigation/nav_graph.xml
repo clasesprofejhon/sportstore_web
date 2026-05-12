@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.sportstore.app.ui.home.HomeFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_products"
+        android:name="com.sportstore.app.ui.products.ProductsFragment"
+        android:label="Productos"
+        tools:layout="@layout/fragment_products">
+        <argument
+            android:name="category"
+            app:argType="string"
+            android:defaultValue=""
+            app:nullable="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_cart"
+        android:name="com.sportstore.app.ui.cart.CartFragment"
+        android:label="Carrito"
+        tools:layout="@layout/fragment_cart" />
+
+    <fragment
+        android:id="@+id/nav_orders"
+        android:name="com.sportstore.app.ui.orders.OrdersFragment"
+        android:label="Mis Pedidos"
+        tools:layout="@layout/fragment_orders" />
+
+</navigation>

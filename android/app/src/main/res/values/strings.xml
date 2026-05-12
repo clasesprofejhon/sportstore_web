@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SportStore</string>
+    <string name="nav_home">Inicio</string>
+    <string name="nav_products">Productos</string>
+    <string name="nav_cart">Carrito</string>
+    <string name="nav_orders">Pedidos</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="register">Registrarse</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="add_to_cart">Agregar al carrito</string>
+    <string name="confirm_order">Confirmar pedido</string>
+    <string name="request_return">Solicitar devolución</string>
+    <string name="search_products">Buscar productos…</string>
+    <string name="empty_cart">Tu carrito está vacío</string>
+    <string name="empty_orders">Aún no tienes pedidos</string>
+    <string name="no_products">No se encontraron productos</string>
+    <string name="error_no_connection">Sin conexión al servidor</string>
+    <string name="error_fill_all">Completa todos los campos</string>
+</resources>
